@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/LogoMCBlanc.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Radio+Canada&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet"> 
+    
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/LogoMCJaune.png" alt="LogoMCJaune.png" class="head"></a>
+
+        <nav class="head">
+            <ul id="menuPrinc">
+                <li > <a href="index.html" id="current" > Accueil</a> </li>
+                <li> <a href="Presentation.html" > Présentation </a> </li>
+                <li> <a href="Evenements.php"> Evènements </a> </li>
+                <li> <a href="Inscription.html"> Inscription </a> </li>
+                <li> <a href="Contact.html"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+        <div id="face">
+            <h1 id="MC" title="Où les étudiants explorent le monde de l'informatique !">MICRO CLUB</h1>
+
+            <h1 id="slogan">Où les étudiants explorent le monde de l'informatique</h1>
+            
+            <p id="presentation">Nous sommes un club basé à l'USTHB qui aide les étudiants à maîtriser les technologies informatiques  </p>
+        </div>
+        <div id="raccourcis">
+                <button id="first" class="btn" onclick="scrollFunction(`struct`)">Le Club</button>
+                <button class="btn"onclick="scrollFunction(`actus`)">Actualités</button>
+                <button class="btn" onclick="scrollFunction(`events`)">Evènements</button>
+        </div>
+
+    </div>
+    
+    <br><br> <h2 style="text-decoration: underline; font-family: 'Cantora One', sans-serif; font-size: 40px; color: yellow;" id="structDuClub">
+        La structure du club</h2> 
+
+    <div id="sections">
+        <div class="sec">
+            <h2 class="titreSection">Section Développement</h2>
+            <p class="textSection">La section développement explore les différentes facettes du développement informatique telles que le développement web et le développement d'applications mobiles et de bureau. 
+                Apprendre et construire sont les maîtres-mots de cette section qui est portée par l'échange et l'entraide entre ses membres afin de résoudre les différents problèmes de programmation et encourager la curiosité et le travail en équipe
+            </p>
+        </div>
+
+        <div class="sec">
+            <p class="textSection">Dans cette section nous apprenons la conception et le développement de jeux vidéo; en commençant par des logicels comme Unity et Unreal Engine jusqu'au level design, en étudiant les différentes étapes du développement.</p>
+            <h2 class="titreSection">Section GameDev</h2>
+        </div>
+        
+        <div class="sec">
+            <h2 class="titreSection">Section Multimédia</h2>
+            <p class="textSection">Cette section s'occupe de tout ce qui touche au domaine du multimédia comme la photographie, l'animation, le montage vidéo et audio. Nous nous centrons sur l'édition, l'animation et la création de contenus visuels. Des logiciels comme Adobe Premiere, After Effects seront à l'honneur. Afin de faire servir les activités du club et ses membres, cette section planifie un grand nombre de projets sous la direction de personnes chevronnées dans les différents domaines de  l'infographie. </p>
+        </div>
+        
+        <div class="sec">
+            <p class="textSection">La section design est la section qui s'occupe de l'identité visuelle du club. Toutes nos publications et nos marques sont créées par notre merveilleuse équipe d'artistes qui travaillent principalement sur les logiciels Adobe comme Illustrator et Photoshop afin de partager et réaliser leurs idées de création.</p>
+            <h2 class="titreSection">Section Design </h2>
+        </div>
+    </div>
+    
+    <br><h2 style="text-decoration: underline; font-family: 'Cantora One', sans-serif; font-size: 40px; color: yellow;" id="actualités">Actualités</h2>
+
+    <div id="articles"> 
+        <div class="article">
+            <img src="images/Articles/MC Birthday2022-05-04 at 02-17-31 .png" alt="">
+            <p class="legend">Retour sur la celebration de notre 37e anniversaire 🎉🎂 Un grand merci a tous nos nouveaux et anciens membres 💙</p>
+        </div>
+
+        <div class="article">
+            <img src="images/Articles/TriviaFinalRound.jpg" alt="">
+            <p class="legend">N'oubliez pas d'aller soutenir nos participants lors de la finale de la competition "Step and Talk" des "English Speakers"
+                </p>
+        </div>
+        <div class="article">
+            <img src="images/Articles/MCUSTHBbirthday.jpg" alt="">
+            <p class="legend">
+                Nous célébrons le 48ème anniversaire de notre université "USTHB"
+                Une cérémonie ainsi que des stands de clubs ont été organisés à l'Auditorium de l'université.
+                
+        </div>
+        <div class="article">
+            <img src="images/Articles/AGCweekAgenda.jpg" alt="">
+            <p class="legend">As we per usual we are here to give you the agenda of this week's activities, we hope that you are going to enjoy your time</p>
+        </div>
+    </div>
+
+    <br><h2 style="text-decoration: underline; font-family: 'Cantora One', sans-serif; font-size: 40px; color: yellow;" id="evenements">Evènements</h2>
+
+    <div id="events">
+        <div class="event">
+            <img src="images/Articles/announcement_ioc.jpg" alt="">
+            <p class="legend">A new online event is coming soon! It's IMPACT OF CODE!
+                            Stay around for more details & make sure you don't miss participating when the time comes! It also involves lots of interesting prizes</p>
+        </div>
+        <div class="event">
+            <img src="images/Articles/reminderMCTF.png" alt="">
+            <p class="legend"> This is another reminder for you to register in mctf so you can attend the IRL part as guests everyone should register to maximize your chances</p>
+        </div>
+        <div class="event">
+            <img src="images/Articles/AGCpresentations.png" alt="">
+            <p class="legend">The AGC presentation is coming! Help us by sharing the USTHB presentation with your classmates in your sections .</p>
+        </div>
+        <div class="event">
+            <img src="images/Articles/GHWcropped.png" alt="">
+            <p class="legend">We would like to inform you that Micro Club is participating in a really fun event next week that I'm sure all of you will fully enjoy: Global Hack Week Share  </p>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> <img src="images/baseline_arrow_upward_white_24dp2x.png" alt="arrow_upward"> </button>
+    <script src="scripts/scriptAccueil.js"></script>
+
+</body>
+</html>

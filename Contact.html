@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleContact.css">
+    <link rel="icon" href="images/LogoMCBlanc.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Radio+Canada&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet"> 
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/LogoMCJaune.png" alt="LogoMCJaune.png" class="head"></a>
+
+        <nav class="head">
+            <ul id="menuPrinc">
+                <li> <a href="index.html"> Accueil</a> </li>
+                <li> <a href="Presentation.html"> Présentation </a> </li>
+                <li> <a href="Evenements.php"> Evènements </a> </li>
+                <li> <a href="Inscription.html"> Inscription </a> </li>
+                <li> <a href="Contact.html" id="current"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+   
+    <div id="main">
+        <h1>Contactez-nous</h1>
+        
+        <h2>Pour plus d'informations, appelez-nous, ou contactez-nous sur nos réseaux : </h2> <br> <br> <br>
+        <div id="infos">
+            <div id="mailtel">
+                <div id="email">                
+                    <img src="images/logos/logoGMAIL.png" alt="">
+                    <p> <b> Email: </b> &nbsp;<a href="mailto:microclub.contact@gmail.com">microclub.contact@gmail.com </a> </p> </div>
+                <div id="tel">
+                    <img src="images/logos/logoTEL222.svg" alt="">
+                    <p><b> Mobile: </b> &nbsp; 06 59 81 22 97 </p><br>                      
+                    <p style="margin-left: 146px;">    05 52 90 66 75  </p> <br> 
+                    </div>
+            </div>
+            <div id="rs">
+                <div id="fb"> 
+                    <img src="images/logos/logoFB.png" alt=""> 
+                    <p> <b> Facebook:</b> <a href="https://www.facebook.com/Micro.Club.USTHB" target="_blank"> Micro Club - USTHB </a> </p> </div>
+                <div id="ig"> 
+                    <img src="images/logos/logoIG2.svg" alt=""> 
+                    <p> <b> Instagram:</b> <a href="https://www.instagram.com/microclub_usthb/" target="_blank"> microclub_usthb </a> </p> </div>
+                <div id="li">
+                    <img src="images/logos/logoLI2.png" alt=""> 
+                    <p> <b> LinkedIn:</b> <a href="https://dz.linkedin.com/company/micro-club" target="_blank">Micro Club</a> </p> </div>
+            </div> 
+        </div>
+        <h2> Des suggestions ? Des recommandations ? Envoyez-nous un message à notre boite mail </h2>
+        
+            <textarea id="msg" name="" id="" cols="120" rows="8"></textarea>
+                    
+            <div id="envoi">
+                <a  id="sendMsg" onclick="setHref()" > <button >Envoyer</button> </a>
+                <img src="images/baseline_arrow_right_white_24dp2x.png" alt="">                
+            </div>
+    
+            <script>
+                function setHref() {
+                    var msg = document.getElementById("msg").value;
+                    var a = document.getElementById("sendMsg");
+
+                    var ref = "mailto:microclub.contact@gmail.com?subject=Suggestion&body=" + msg;
+
+                    a.setAttribute("href", ref);
+                }
+            </script>
+   </div>
+        
+</body>
+</html>
+
+<!-- mailto:microclub.contact@gmail.com?subject=Suggestion&body=Texte de corps ici -->

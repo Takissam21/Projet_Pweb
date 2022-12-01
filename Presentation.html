@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylePresentation.css">
+    <link rel="icon" href="images/LogoMCBlanc.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Radio+Canada&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap" rel="stylesheet">     
+
+<link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet"> 
+    <title>Presentation</title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="index.html"><img src="images/LogoMCJaune.png" alt="LogoMCJaune.png" class="head"></a>
+
+        <nav class="head">
+            <ul id="menuPrinc">
+                <li> <a href="index.html"> Accueil</a> </li>
+                <li> <a href="Presentation.html" id="current"> Présentation </a> </li>
+                <li> <a href="Evenements.php"> Evènements </a> </li>
+                <li> <a href="Inscription.html"> Inscription </a> </li>
+                <li> <a href="Contact.html"> Contact </a> </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="main">
+
+    
+        <nav id="sous-menu" >
+            <ol> 
+                <li> <button id="scroll1" onclick="scrollFunction(1)" onmouseover="changeColorIn(this)" onmouseout="changeColorOut(this)">Qui sommes nous</button> </li>
+                <li> <button id="scroll2" onclick="scrollFunction(2)" onmouseover="changeColorIn(this)" onmouseout="changeColorOut(this)">Historique du club </li>
+                <li> <button id="scroll3" onclick="scrollFunction(3)" onmouseover="changeColorIn(this)" onmouseout="changeColorOut(this)">Activités du club</button> </li>                          
+            </ol>    
+          
+        </nav>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"> <img src="images/baseline_arrow_upward_white_24dp2x.png" alt="arrow_upward"> </button>
+        <div id="texte"> 
+            
+                <h2 id="qsn">Qui sommes-nous ?</h2>
+                <p>
+                    Créé en 1985 à l’USTHB, Micro Club est le premier club scientifique 
+                    universitaire en Algérie. À but non lucratif, il œuvre à la vulgarisation et l’initiation à l’informatique, notamment par l’organisation 
+                    de formations ciblées et d’évènements. <br> 
+                </p>    
+                <p> 
+                    Micro Club vise non seulement à armer les étudiants d'un bagage de compétences techniques, par le biais de la promotion de l’informatique et des différents domaines IT, mais               
+                    pousse aussi à la familiarisation et l'insertion au monde professionnel en encourageant le                 
+                    développement des relations entre notre communauté estudiantine et le monde de l'entreprenariat.
+                    Nous poussons notamment les membres actifs et les adhérents du club à améliorer la 
+                    production scientifique, au sein du campus en particulier, mais également sur tout le territoire national.
+                </p>
+    
+            <h2 id="hist">Petit Historique</h2>
+            <p>
+                Micro Club a pu fièrement représenter la communauté estudiantine à l’échelle nationale, et ce en prenant part à différentes activités impliquant par exemple l’organisation d’évènements avec le 
+                Ministre délégué chargé des Startup. Nous avons aussi eu l’honneur de recevoir le Président de la République Mr Tebboune qui a 
+                salué les efforts fournis par notre club et l’ambition dégagée par 
+                les jeunes étudiants algériens. 
+                Le club a aussi réalisé de nombreux projets, créant des applications et dispositifs préventifs durant la pandémie, ainsi que des 
+                projets en collaboration avec le Ministère de la Jeunesse et des 
+                Sports à travers la création de l’application Yaddi, une plateforme 
+                d’aide au bénévolat.
+                Nous avons aussi fait des apparitions sur des plateaux TV comme 
+                Canal Algérie ,Ennahar et El-Bilad.                
+            </p>
+
+            <h2 id="act">Nos Activités </h2>
+          
+                <h3>Micro Club Capture The Flag (MCTF) :</h3>
+              <p>     Micro Club Capture The Flag est un salon 
+                autour de la cyber-sécurité, englobant 
+                conférences, tables rondes et une compétition nationale. Le but de MCTF est de permettre aux participants de découvrir et maîtriser 
+                de nouvelles technologies ainsi que de développer de nouvelles compétences. Dans 
+                l’optique d’encourager le développement de 
+                la communauté de white hackers, 
+                Micro-Club tient à organiser un événement 
+                en rapport avec la sécurité informatique en 
+                vue de rassembler enthousiastes du 
+                domaine et éventuels recruteurs. Ainsi, avec 
+                cet événement, le Micro Club désire promouvoir les bonnes pratiques de la cyber-sécurité 
+                et entreprend de sensibiliser les jeunes étudiants sur ce domaine ainsi qu’inculquer les 
+                bonnes valeurs du ‘Ethical Hacking’.                
+            </p>
+            
+                <h3>Red Hat Training Camp :</h3>
+            <p>    Red Hat Training Camp est une formation certifiée de 3 jours 
+                qui concerne les technologies Red Hat. Le stage est animé par 
+                Dr. Djelloul Bouida, architecte de solutions senior et niveau IV 
+                RHCA. Le but est de permettre aux étudiants d’acquérir une 
+                expérience sur le système d’administration linux, virtualisation 
+                et cloud computing sur un niveau débutant-intermédiaire.
+            </p>
+            
+                <h3>Algeria Game Challenge (AGC) :</h3>
+            <p>    Pionnier du développement vidéoludique et première initiative 
+                à introduire ce domaine en Algérie, Algeria Game Challenge, 
+                anciennement nommé «XNA» d’après le Framework de Microsoft, est un concours de développement de jeux vidéo destiné 
+                aux passionnés du domaine vidéoludique aux quatre coins du 
+                pays.
+                Ce concours vise à lancer les participants dans un processus 
+                d’exploration du métier de développeur de jeux vidéo, afin 
+                d’attirer les investisseurs dans ce secteur
+            </p>
+            
+           
+                <h3>Algeria Disrupt :</h3>
+            <p>    Algeria Disrupt est la première édition de « 
+                Algeria Disrupt: the annual startup conference » organisée, au CIC : Centre International des Conférences, par le ministère de la 
+                micro entreprise, start up et de l’économie 
+                de la connaissance en collaboration avec le 
+                club CELEC et avec l’aide et la participation 
+                du Micro Club.
+            </p>
+
+            
+                <h3>Algeria 2.0 :</h3>
+            <p>   
+                Algeria 2.0 est le plus grand événement WEB  et TIC en Afrique. Il est considéré comme "le 
+                carrefour international des professionnels 
+                des TIC et du WEB 2.0". Il a pour but d'assurer 
+                une mutation vers un avenir numérique. Il 
+                crée toutes sortes d'opportunités de développement du pays et du continent.
+            </p>
+            
+                <h3> Micro Club Winter Hacks :  </h3>
+            <p>    L’idée du Winter Hacks Season est de 
+                regrouper les activités et évènements de 
+                types hackathons, workshops et compétitions de la période de la saison hivernal de 
+                Septembre à Février dans un format interconnecté qui permet aux participant de profiter 
+                de ces activités pour apprendre de nouvelles 
+                technologies, améliorer leur compétence, en 
+                acquérir des nouvelles qui leurs servent dans 
+                la vie académique, professionnel et personnel ainsi que de pouvoir appliquer 
+                ces nouvelles compétences dans les 
+                challenges des différents évènements 
+                simultanés et travailler au sein d’une communauté.
+            </p>
+        </div>
+    </div>
+
+    <script src="scripts/scriptPresentation.js">
+    </script>
+
+</body>
+</html>
