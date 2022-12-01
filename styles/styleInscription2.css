@@ -1,0 +1,76 @@
+body{
+    background: url("../images/Background3InscriptionContact.png");
+    background-size:cover;
+    color: aliceblue;
+    background-attachment: fixed; 
+    scroll-behavior: smooth;
+}
+
+img{
+    padding-top: 20px;
+    
+}
+
+nav {
+    vertical-align: bottom;
+    width: 80%;
+}    
+
+ul li, .head {
+    display: inline-block;
+}
+
+header{
+    color: aliceblue;
+    font-family: 'Radio Canada', sans-serif; 
+}
+
+#menuPrinc li a#current {
+    color: yellow;
+}
+
+#menuPrinc li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21px;
+    padding: 20px;
+     
+}
+
+#menuPrinc li a:hover {
+    color: yellow;
+    transition: 300ms;
+    text-shadow: 0 0 3px yellow;
+}
+/*//////////////////////////////////*/
+
+#main{
+    margin: 65px;
+    font-size: 25px;
+    font-family: 'Radio Canada', sans-serif; 
+}
+
+h1 {
+    color: yellow;
+}
+
+h3{ 
+    text-shadow: 0.1em 0.1em 0.05em black;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    color: rgb(44, 6, 6);
+    font-family: 'Radio Canada', sans-serif; 
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(44, 6, 6);
+    color: yellow;
+    border: 1px solid yellow;
+    transition: 200ms;
+}

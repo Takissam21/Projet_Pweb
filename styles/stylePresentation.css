@@ -1,0 +1,142 @@
+/*///////////////////////////////////////HEADER////////////////////////////*/
+body{
+    background: url("../images/Background3LONG2.png");   
+    background-size:cover;
+}
+img{
+    padding-top: 20px;
+    
+}
+
+nav {
+    vertical-align: bottom;
+}
+
+ul li, .head {
+    display: inline-block;
+}
+
+header {
+    font-family: 'Radio Canada', sans-serif; 
+    color: aliceblue;
+    
+}
+
+#menuPrinc li a#current {
+    color: yellow;
+}
+
+#menuPrinc li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21px;
+    padding: 20px;
+     
+}
+
+#menuPrinc li a:hover {
+    color: yellow;
+    transition: 300ms;
+    text-shadow: 0 0 3px yellow;
+}
+
+/*//////////////////////////////MAIN///////////////////////////////////////*/
+#main{
+    /* background-image: url("../images/BackgroundBleu.png"); */
+    background-size: 100%;
+    color: aliceblue;
+}
+#sous-menu {
+    position: fixed;  
+    left: 0px;
+    top: 95px;
+    width: 17%;
+    vertical-align: top;
+    font-size: 25px;
+  
+}
+#sous-menu ol li {
+    padding-bottom: 10px;
+    font-family: 'Cantora One', sans-serif;
+}
+
+ol{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+#texte{
+    position: relative;
+    left: 230px;
+    width: 75%;
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif; 
+}
+
+#sous-menu, #texte {
+    display: inline-block; 
+    vertical-align: top;
+}   
+
+#texte h2{
+    text-decoration: underline; 
+    font-family: 'Cantora One', sans-serif; 
+    font-size: 40px;
+    color: yellow;
+}
+
+#texte h3{
+    font-size: 30px;
+}
+
+/* ////////////////////////// SOUS-MENU////////////////////////////// */
+
+header nav #menuPrinc li:nth-child(2) a {
+    color: yellow;   
+} 
+
+#main #sous-menu ol li  {
+    font-size: 25px;
+}
+
+#main #sous-menu ol li button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+
+}
+
+#main #sous-menu ol li button:hover{
+    transition: 200ms;
+}
+
+#main #myBtn { 
+    position: fixed;
+    display: none;
+    bottom: 10px;
+    
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #000000; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%;  /*Rounded corners */
+    height: 65px;
+    width: 65px;
+    
+  }
+  #main #myBtn img {
+    position: relative;
+     bottom: 27px;/*30px; pour height et width de btn = 60px*/
+    left:-6px; /*-8px;*/
+
+  }
+#main #myBtn:hover { 
+    background-color: rgb(14, 12, 29); /*Add a dark-grey background on hover */
+    transition: 200ms;
+  }
+
+  h3{
+    text-shadow: 0.1em 0.1em 0.05em black;
+}

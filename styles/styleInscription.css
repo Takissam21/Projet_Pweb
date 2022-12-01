@@ -1,0 +1,126 @@
+body{
+    background: url("../images/Background3InscriptionContact.png");
+    background-size:cover;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+img{
+    padding-top: 20px;   
+}
+
+nav {
+    vertical-align: bottom;
+    width: 80%;
+}    
+
+ul li, .head {
+    display: inline-block;
+}
+
+header{
+    color: aliceblue;
+    font-family: 'Radio Canada', sans-serif; 
+}
+
+#menuPrinc li a#current {
+    color: yellow;
+}
+
+#menuPrinc li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21px;
+    padding: 20px;     
+}
+
+#menuPrinc li a:hover {
+    color: yellow;
+    transition: 300ms;
+    text-shadow: 0 0 3px yellow;
+}
+
+/*/////////////////////////////rgb(177, 177, 63);////////////////////////*/
+
+#cont{
+    height: 400px;
+}
+#form-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    width: 70%; 
+    margin-left: 10%;
+    align-content: space-between;
+}
+
+#form-flex .form-elm{
+    display: flex;
+    width: 46%;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#form-flex .form-elm label{
+    width: 40%;
+    font-size: 20px;   
+    justify-content: flex-start;    
+}
+
+#form-flex .form-elm input, #form-flex .form-elm select {
+    width: 59%;
+    border: 1px solid yellow; 
+    height: 40px; 
+    justify-content: flex-end;   
+    background-color: white;
+    color: #04294f;
+    font-size: 20px;
+}
+
+.form-elm select option{
+    color: black;
+}
+
+#form-flex .form-elm button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    color: rgb(44, 6, 6);
+}
+
+#form-flex .form-elm button:hover {
+    background-color: rgb(44, 6, 6);
+    color: yellow;
+    border: 1px solid yellow;
+    transition: 200ms;
+}
+
+#envoi{
+    position: relative;
+    left: 170px;
+    font-family: 'Radio Canada', sans-serif; 
+    font-size: 18px;
+}
+
+#envoi img{
+    padding-bottom: 20px;
+}
+
+h1{
+    margin-left: 43%;
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    margin-left:20%;
+}
+
+div#error{
+    margin: 60px;
+    color: red;
+}

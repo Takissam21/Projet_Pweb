@@ -1,0 +1,132 @@
+body{   
+    background: url("../images/Background3.png");
+    background-size:cover;
+    color: aliceblue;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+img{
+    padding-top: 20px;
+    
+}
+
+nav {
+    vertical-align: bottom;
+    width: 80%;
+}    
+
+ul li, .head {
+    display: inline-block;
+}
+
+header{
+    color: aliceblue;
+    font-family: 'Radio Canada', sans-serif; 
+}
+
+#menuPrinc li a#current {
+    color: yellow;
+}
+
+#menuPrinc li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21px;
+    padding: 20px;
+     
+}
+
+#menuPrinc li a:hover {
+    color: yellow;
+    transition: 300ms;
+    text-shadow: 0 0 3px yellow;
+}
+
+/*/////////////////////////BTN/////////////////////////*/
+#myBtn { 
+    position: fixed;
+    display: none;
+    bottom: 10px;
+    
+    border: none; 
+    outline: none;
+    background-color: #000000; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    height: 65px;
+    width: 65px;
+    
+  }
+#myBtn img {
+    position: relative;
+     bottom: 27px;
+    left:-6px; 
+
+  }
+#myBtn:hover { 
+    background-color: rgb(14, 12, 29); 
+    transition: 200ms;
+  }
+
+/*////////////EVENTS///////////////////////*/
+#cont{
+    font-family: 'Radio Canada', sans-serif ;
+    margin: 65px;
+}
+
+.eventImageSimple{
+    display:flex ; 
+    justify-content: flex-end;
+}
+
+.eventImageSimple .description .propertyText{
+    width: 95%;
+}
+
+#seule{
+    align-self: flex-end; 
+    width: 265px;
+     height: 300px;
+}
+
+.eventTitle{
+    font-family: 'Cantora One', sans-serif;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.propertyTitle, .propertyText {
+    display: inline-block;
+}
+
+.propertyTitle{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.propertyText{
+    font-size: 25px;
+}
+
+.title, .type, .description {
+    display: block;
+}
+
+.description{
+    text-shadow: 0.1em 0.1em 0.05em black;
+}
+.description a{
+    color: rgb(179, 141, 214);
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.images img{
+    width: 22%;
+    height: 100%;
+}
